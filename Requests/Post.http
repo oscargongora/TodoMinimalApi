@@ -1,0 +1,8 @@
+@host = http://localhost:5291
+
+POST {{host}}/api/todos
+Content-Type: application/json
+
+{
+    "Title" : "todo 03"
+}
